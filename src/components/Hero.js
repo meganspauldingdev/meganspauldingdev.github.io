@@ -5,7 +5,7 @@ class Hero extends Component {
 	render() {
 		return(
 			<div id="hero">
-				<h1>DESIGN THAT SELLS</h1>
+				<h1>DESIGNS THAT CONVERT</h1>
 			</div>
 		)
 	}

@@ -7,10 +7,10 @@ class Services extends Component {
 			<section id="services">
 				<h3>SERVICES</h3>
 				<hr/>
-				<div class="service-container">
-					<div class="service">1</div>
-					<div class="service">2</div>
-					<div class="service">3</div>
+				<div className="service-container">
+					<div className="service">1</div>
+					<div className="service">2</div>
+					<div className="service">3</div>
 				</div>
 			</section>
 		)
