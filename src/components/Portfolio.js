@@ -8,10 +8,10 @@ class Portfolio extends Component {
 			<section id="portfolio">
 				<h3>{this.props.sectionTitle}</h3>
 				<hr/>
-				<div className="service-container">
+				<div className="portfolio-container">
 				    {
 
-                  		this.props.showingSamples.map((name, imageURL) => (<WorkSample name={name} imageURL={imageURL} />))
+                  		this.props.showingSamples.map((sample, key) => (<WorkSample sample={sample} key={key} />))
 
                     }
 
