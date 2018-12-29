@@ -43,7 +43,7 @@ h1{
 }
 
 section{
-  padding: 15%;
+  padding-top: 15%;
   max-width: 80%;
   margin: auto;
 }
@@ -53,6 +53,7 @@ h3 {
   text-align: center;
   margin: 0;
   margin-left: .125em;
+  text-transform: uppercase;
 }
 
 section hr{
