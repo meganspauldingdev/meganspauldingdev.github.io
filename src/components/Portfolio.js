@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import WorkSample from './WorkSample.js';
 
 class Portfolio extends Component {
 
@@ -8,9 +9,12 @@ class Portfolio extends Component {
 				<h3>{this.props.sectionTitle}</h3>
 				<hr/>
 				<div className="service-container">
-					<div className="service">1</div>
-					<div className="service">2</div>
-					<div className="service">3</div>
+				    {
+
+                  		this.props.showingSamples.map((name, imageURL) => (<WorkSample name={name} imageURL={imageURL} />))
+
+                    }
+
 				</div>
 			</section>
 		)

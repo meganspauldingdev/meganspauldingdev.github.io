@@ -1,10 +1,11 @@
 {
 	"samples":[
-	  { "Name":"The Vintage Sparrow", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
-	  { "Name":"Holly Joyce Murray", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
-	  { "Name":"White Flag", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
-	  { "Name":"Vision Chasers", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
-	  { "Name":"ProLove Marketing", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
-	  { "Name":"House of Revival", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"}
+	  { "name":"The Vintage Sparrow", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
+	  { "name":"Holly Joyce Murray", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
+	  { "name":"White Flag", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
+	  { "name":"Vision Chasers", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
+	  { "name":"ProLove Marketing", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
+	  { "name":"House of Revival", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"},
+	  { "name":"ONE TOO MANY", "imageURL":"https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"}
 	]
 }

@@ -9,9 +9,16 @@ import PortfolioData from './utils/PortfolioData.json';
 
 
 class App extends Component {
+  state = {
+    portfolioCount: 6
+  }
+
   render() {
-    var RecentWorks = PortfolioData.samples;
-    console.log(RecentWorks);
+    var portfolioSamples = PortfolioData.samples;
+    var portfolioCount = this.state.portfolioCount;
+
+    let showingSamples = portfolioSamples.slice(0, portfolioCount);
+
 
     return (
       <div className="App">
@@ -19,7 +26,7 @@ class App extends Component {
         <Hero />
         <Biography />
         <Services />
-        <Portfolio sectionTitle="RECENT WORK"/>
+        <Portfolio sectionTitle="RECENT WORK" showingSamples={ showingSamples }/>
       </div>
     );
   }
