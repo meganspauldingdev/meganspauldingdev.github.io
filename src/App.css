@@ -41,3 +41,33 @@ h1{
   text-align: center;
   margin-top: 25%;
 }
+
+section{
+  padding: 15%;
+  max-width: 80%;
+  margin: auto;
+}
+
+h3 {
+  letter-spacing: .25em;
+  text-align: center;
+  margin: 0;
+  margin-left: .125em;
+}
+
+section hr{
+  width: 125px;
+  border: 1px solid black;
+}
+
+.service-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3em;
+}
+
+.service{
+  width: 30%;
+  margin: 1.5%;
+  background-color: white;
+}
