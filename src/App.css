@@ -30,3 +30,13 @@ h1{
   padding-left: 1.5em;
   margin-top: 15%;
 }
+
+#biography{
+  background-color: white;
+  width: 70%;
+  padding: 1em 5em;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #e99e8e;
+  text-align: center;
+}
