@@ -1,17 +1,24 @@
 /*Typography*/
 h1{
-  color: #e99e8e;
   font-weight: 900;
   font-size: 5em;
 }
 
-h3 {
-  letter-spacing: .25em;
+h3, h2 {
   text-align: center;
   margin: 0;
+}
+
+h3{
   margin-left: .125em;
+  letter-spacing: .25em;
   text-transform: uppercase;
 }
+
+h2{
+  color: #e99e8e;
+}
+
 
 /*Main Page Common*/
 
@@ -83,9 +90,29 @@ section hr{
   background-color: white;
 }
 
-.service img{
-  width: 100%;
-  max-width: 100%;
-  object-fit: cover;
+.service{
   height: 25em;
+  background-size: cover;
+  background-position: bottom left;
+}
+
+.brand-service{
+  background-image: url('./img/branding-cover.jpg');
+}
+
+.web-design-service{
+  background-image: url('./img/webdesign-cover.jpg');
+}
+
+.web-dev-service{
+  background-image: url('./img/web-development-cover.jpg');
+}
+
+.service h2{
+
+  width: 80%;
+  margin: 15.75em auto 0;
+  background-color: white;
+  padding: 5px;
+
 }
