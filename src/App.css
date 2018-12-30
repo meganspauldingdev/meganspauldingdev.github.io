@@ -2,6 +2,7 @@
 h1{
   font-weight: 900;
   font-size: 5em;
+  color: #e99e8e;
 }
 
 h3, h2 {
@@ -90,6 +91,7 @@ section hr{
   background-color: white;
 }
 
+/*Service Only*/
 .service{
   height: 25em;
   background-size: cover;
@@ -115,4 +117,16 @@ section hr{
   background-color: white;
   padding: 5px;
 
+}
+
+/*Portfolio Only*/
+.work-sample img{
+  width:60%;
+
+}
+
+.work-sample{
+  background-color: pink;
+  height: 20em;
+  text-align: center;
 }
