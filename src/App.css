@@ -62,7 +62,15 @@ section hr{
 
 #hero h1{
   padding-left: 1.5em;
-  margin-top: 15%;
+  margin-top: 12%;
+}
+
+#msc-logo{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  z-index: 100;
+  width: 45%;
 }
 
 /*Biography Component*/
@@ -75,7 +83,7 @@ section hr{
   font-weight: 700;
   color: #e99e8e;
   text-align: center;
-  margin-top: 25%;
+  margin-top: 30%;
 }
 
 /*Services & Portfolio Compontents*/
