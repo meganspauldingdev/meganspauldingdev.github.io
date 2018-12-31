@@ -122,11 +122,15 @@ section hr{
 /*Portfolio Only*/
 .work-sample img{
   width:60%;
-
+  height: auto;
+  align-self: center
 }
 
 .work-sample{
   background-color: pink;
   height: 20em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center
 }
