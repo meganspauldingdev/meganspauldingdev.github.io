@@ -6,6 +6,7 @@ import Biography from './components/Biography.js'
 import Services from './components/Services.js'
 import Portfolio from './components/Portfolio.js'
 import PortfolioData from './utils/PortfolioData.json';
+import TriangleBackground from './components/TriangleBackground.js'
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <TriangleBackground />
         <MainNav />
         <Hero />
         <Biography />

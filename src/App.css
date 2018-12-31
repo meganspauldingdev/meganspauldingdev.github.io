@@ -90,7 +90,7 @@ section hr{
 .service-container, .portfolio-container{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3em;
+  margin-top: 2.5em;
 }
 
 .service, .work-sample{
