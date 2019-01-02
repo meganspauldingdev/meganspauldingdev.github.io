@@ -35,9 +35,18 @@ class TriangleBackground extends Component {
 		})
 	}
 
+	logoRotate = () => {
+		const logo = document.getElementById('msc-logo');
+		window.addEventListener('scroll', function(){
+			let scrolled = window.scrollY;
+			logo.style.transform = 'rotate(-'+ scrolled +'deg)';
+		})
+	}
+
 	componentDidMount() {
 		this.styleTriangles(trianglePositions);
 		this.parallaxScroll(trianglePositions);
+		this.logoRotate();
 	}
 
 	render() {
