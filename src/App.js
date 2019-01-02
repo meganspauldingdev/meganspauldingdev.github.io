@@ -7,6 +7,7 @@ import Services from './components/Services.js'
 import Portfolio from './components/Portfolio.js'
 import PortfolioData from './utils/PortfolioData.json';
 import TriangleBackground from './components/TriangleBackground.js'
+import About from './components/About.js'
 
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
 
   render() {
     var portfolioSamples = PortfolioData.samples;
-    var portfolioCount = this.state.portfolioCount;
+    var portfolioCount = 6;
 
     let showingSamples = portfolioSamples.slice(0, portfolioCount);
 
@@ -29,6 +30,7 @@ class App extends Component {
         <Biography />
         <Services />
         <Portfolio sectionTitle="RECENT WORK" showingSamples={ showingSamples }/>
+        <About />
       </div>
     );
   }

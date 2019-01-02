@@ -16,6 +16,7 @@ class Portfolio extends Component {
                     }
 
 				</div>
+				<h4>See More</h4>
 			</section>
 		)
 	}
