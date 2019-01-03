@@ -117,7 +117,6 @@ section hr{
 }
 
 .service, .work-sample{
-  width: 30%;
   margin: 1.5%;
   background-color: white;
 }
@@ -127,6 +126,7 @@ section hr{
   height: 25em;
   background-size: cover;
   background-position: bottom left;
+  width: 30%;
 }
 
 .brand-service{
@@ -154,7 +154,10 @@ section hr{
 .work-sample img{
   width:60%;
   height: auto;
-  align-self: center
+  align-self: center;
+  text-align: center;
+/*  display: block;
+  margin: auto;*/
 }
 
 .work-sample{
@@ -163,7 +166,14 @@ section hr{
   text-align: center;
   display: flex;
   justify-content: center;
-  align-self: center
+  align-items: center;
+  width: 100%;
+}
+
+.portfolio-container a{
+  display: block;
+  width: 30%;
+  margin: 1.5%;
 }
 
 /*About Section*/

@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 
 class WorkSample extends Component {
 
 	render() {
 		return(
-			<div className="work-sample">
-				<img src={this.props.sample.imageURL} alt={this.props.sample.name}/>
-			</div>
+			<Link to={'/portfolio/' + this.props.sample.id}>
+				<div className="work-sample">
+						<img src={this.props.sample.imageURL} alt={this.props.sample.name}/>
+
+				</div>
+			</Link>
 		)
 	}
 
