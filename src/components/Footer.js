@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Headshot from '../img/headshot.jpg'
 
 class Footer extends Component {
 
