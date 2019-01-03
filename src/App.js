@@ -14,6 +14,9 @@ import AboutPage from './pages/AboutPage.js'
 import PortfolioPage from './pages/PortfolioPage.js'
 import ServicesPage from './pages/ServicesPage.js'
 import ContactPage from './pages/ContactPage.js'
+import BrandingPage from './pages/BrandingPage.js'
+import WebDesignPage from './pages/WebDesignPage.js'
+import WebDevelopmentPage from './pages/WebDevelopmentPage.js'
 
 
 class App extends Component {
@@ -23,7 +26,6 @@ class App extends Component {
     var portfolioCount = 6;
 
     let showingSamples = portfolioSamples.slice(0, portfolioCount);
-
 
     return (
       <div className="App">
@@ -56,6 +58,18 @@ class App extends Component {
           <ContactPage />
         )}/>
 
+        <Route path='/branding' render={() => (
+          <BrandingPage />
+        )}/>
+
+        <Route path='/webdesign' render={() => (
+          <WebDesignPage />
+        )}/>
+
+
+        <Route path='/webdevelopment' render={() => (
+          <WebDevelopmentPage />
+        )}/>
       </div>
     );
   }
