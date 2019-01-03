@@ -31,7 +31,7 @@ h5{
 
 /*Main Page Common*/
 
-section{
+section, footer{
   padding-top: 15%;
   max-width: 80%;
   margin: auto;
@@ -183,4 +183,12 @@ section hr{
   font-size: 1.25em;
   font-weight: 700;
   text-align: center;
+}
+
+/*Footer*/
+footer{
+  text-align: center;
+  font-weight: bold;
+  color: #e0c8be;
+  margin-bottom: 5em;
 }
