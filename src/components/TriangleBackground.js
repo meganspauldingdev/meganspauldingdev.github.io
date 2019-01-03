@@ -6,7 +6,8 @@ import React, { Component } from 'react';
 		{id: "triangle3", top: 50, left: 1200, transform: "rotate(170deg)", scroll: .5},
 		{id: "triangle4", top: 500, left: 350, transform: "rotate(-10deg)", scroll: .7},
 		{id: "triangle5", top: 400, left: 900, transform: "rotate(60deg)", scroll: 2},
-		{id: "triangle6", top: 900, left: 25, transform: "rotate(10deg)", scroll: .20}
+		{id: "triangle6", top: 750, left: 25, transform: "rotate(10deg)", scroll: .20},
+		{id: "triangle7", top: 650, left: 1200, transform: "rotate(10deg)", scroll: .20},		
 		]
 
 class TriangleBackground extends Component {
