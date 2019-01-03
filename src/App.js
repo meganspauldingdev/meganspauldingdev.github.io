@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio.js'
 import PortfolioData from './utils/PortfolioData.json';
 import TriangleBackground from './components/TriangleBackground.js'
 import About from './components/About.js'
+import Footer from './components/Footer.js'
 
 
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
         <Services />
         <Portfolio sectionTitle="RECENT WORK" showingSamples={ showingSamples }/>
         <About />
+        <Footer />
       </div>
     );
   }

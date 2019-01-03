@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Headshot from '../img/headshot.jpg'
 
-class Portfolio extends Component {
+class About extends Component {
 
 	render() {
 		return(
@@ -21,4 +21,4 @@ class Portfolio extends Component {
 
 }
 
-export default Portfolio
+export default About
