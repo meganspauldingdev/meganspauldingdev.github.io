@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WorkSample from './WorkSample.js';
+import { Link } from 'react-router-dom'
 
 class Portfolio extends Component {
 
@@ -16,7 +17,7 @@ class Portfolio extends Component {
                     }
 
 				</div>
-				<h4>See More</h4>
+				<Link to="/portfolio"> <h4>See More</h4></Link>
 			</section>
 		)
 	}

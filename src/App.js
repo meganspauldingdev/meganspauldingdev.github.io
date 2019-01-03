@@ -17,6 +17,7 @@ import ContactPage from './pages/ContactPage.js'
 import BrandingPage from './pages/BrandingPage.js'
 import WebDesignPage from './pages/WebDesignPage.js'
 import WebDevelopmentPage from './pages/WebDevelopmentPage.js'
+import Project from './components/Project.js'
 
 
 class App extends Component {
@@ -70,6 +71,7 @@ class App extends Component {
         <Route path='/webdevelopment' render={() => (
           <WebDevelopmentPage />
         )}/>
+
       </div>
     );
   }
