@@ -9,12 +9,14 @@ import PortfolioData from './utils/PortfolioData.json';
 import TriangleBackground from './components/TriangleBackground.js'
 import About from './components/About.js'
 import Footer from './components/Footer.js'
+import { Route } from 'react-router-dom'
+import AboutPage from './pages/AboutPage.js'
+import PortfolioPage from './pages/PortfolioPage.js'
+import ServicesPage from './pages/ServicesPage.js'
+import ContactPage from './pages/ContactPage.js'
 
 
 class App extends Component {
-  state = {
-    portfolioCount: 6
-  }
 
   render() {
     var portfolioSamples = PortfolioData.samples;
@@ -25,14 +27,35 @@ class App extends Component {
 
     return (
       <div className="App">
-        <TriangleBackground />
-        <MainNav />
-        <Hero />
-        <Biography />
-        <Services />
-        <Portfolio sectionTitle="RECENT WORK" showingSamples={ showingSamples }/>
-        <About />
-        <Footer />
+        <Route exact path='/' render={() => (
+          <div>
+          <TriangleBackground />
+          <MainNav />
+          <Hero />
+          <Biography />
+          <Services />
+          <Portfolio sectionTitle="RECENT WORK" showingSamples={ showingSamples }/>
+          <About />
+          <Footer />
+          </div>
+        )}/>
+
+        <Route path='/about' render={() => (
+          <AboutPage />
+        )}/>
+
+        <Route path='/portfolio' render={() => (
+          <PortfolioPage />
+        )}/>
+
+        <Route path='/services' render={() => (
+          <ServicesPage />
+        )}/>
+
+        <Route path='/contact' render={() => (
+          <ContactPage />
+        )}/>
+
       </div>
     );
   }
