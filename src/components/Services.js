@@ -10,22 +10,21 @@ class Services extends Component {
 				<hr/>
 				<div className="service-container">
 
-				<div className="service brand-service">
-					<Link to="/branding">
-						<h2>Branding</h2>
-					</Link>
-				</div>
-
-				<div className="service web-design-service">
-					<Link to="webdesign">
-						<h2>Web Design</h2>
-						</Link>
-				</div>
+				<Link to="/branding">
+					<div className="service brand-service">
+							<h2>Branding</h2>
+					</div>
+				</Link>
+				<Link to="webdesign">
+					<div className="service web-design-service">
+							<h2>Web Design</h2>
+					</div>
+				</Link>
+				<Link to="webdevelopment">
 				<div className="service web-dev-service">
-					<Link to="webdevelopment">
 						<h2>Web Development</h2>
-					</Link>
 				</div>
+				</Link>
 				</div>
 			</section>
 		)

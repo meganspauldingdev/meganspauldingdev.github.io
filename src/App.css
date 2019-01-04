@@ -126,7 +126,7 @@ section hr{
   height: 25em;
   background-size: cover;
   background-position: bottom left;
-  width: 30%;
+  width: 100%;
 }
 
 .brand-service{
@@ -142,13 +142,16 @@ section hr{
 }
 
 .service h2{
-
+  display: block;
+  position: relative;
   width: 80%;
-  margin: 15.75em auto 0;
+  margin: 0 auto;
   background-color: white;
   padding: 5px;
+  top: 15.75em;
 
 }
+
 
 /*Portfolio Only*/
 .work-sample img{
@@ -170,7 +173,7 @@ section hr{
   width: 100%;
 }
 
-.portfolio-container a{
+.portfolio-container a, .service-container a{
   display: block;
   width: 30%;
   margin: 1.5%;
