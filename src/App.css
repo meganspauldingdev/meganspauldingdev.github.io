@@ -211,3 +211,10 @@ footer{
   color: #e0c8be;
   margin-bottom: 5em;
 }
+
+.CTA-home{
+  background-color: white;
+  color: #e99e8e;
+  padding: .5em 1em;
+  border-radius: 10px;
+}
