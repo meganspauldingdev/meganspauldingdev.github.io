@@ -107,6 +107,7 @@ section hr{
   color: #e99e8e;
   text-align: center;
   margin-top: 30%;
+  margin-left: -100%;
 }
 
 /*Services & Portfolio Compontents*/
@@ -178,6 +179,7 @@ section hr{
   width: 30%;
   margin: 1.5%;
 }
+
 
 /*About Section*/
 
