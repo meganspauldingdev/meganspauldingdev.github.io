@@ -23,30 +23,33 @@ class TriangleBackground extends Component {
 		)
 	}
 
-	parallaxScroll = (triangles) => {
-		const triangleSet = triangles;
-		triangleSet.forEach(function(triangle){
-			window.addEventListener('scroll', function(e){
-				let triangleID = triangle.id;
-				let el = document.getElementById(triangleID);	
-				let scrolled = window.scrollY;
-				el.style.top = (triangle.top-(scrolled*triangle.scroll))+'px';
-			})
-		})
+
+
+	componentDidMount() {
+		this.styleTriangles(trianglePositions);
+		window.addEventListener('scroll', this.logoRotate);
+		window.addEventListener('scroll', this.parallaxTriangles);
+	}
+	componentWillUnmount() {
+		window.removeEventListener('scroll', this.logoRotate);
+		window.removeEventListener('scroll', this.parallaxTriangles);
 	}
 
 	logoRotate = () => {
 		const logo = document.getElementById('msc-logo');
-		window.addEventListener('scroll', function(){
-			let scrolled = window.scrollY;
-			logo.style.transform = 'rotate(-'+ scrolled +'deg)';
-		})
+		let scrolled = window.scrollY;
+		logo.style.transform = 'rotate(-'+ scrolled +'deg)';
 	}
 
-	componentDidMount() {
-		this.styleTriangles(trianglePositions);
-		this.parallaxScroll(trianglePositions);
-		this.logoRotate();
+	parallaxTriangles = () => {
+
+		trianglePositions.forEach(function(triangle){
+				let triangleID = triangle.id;
+				let el = document.getElementById(triangleID);	
+				let scrolled = window.scrollY;
+				el.style.top = (triangle.top-(scrolled*triangle.scroll))+'px';
+		})
+
 	}
 
 	render() {
