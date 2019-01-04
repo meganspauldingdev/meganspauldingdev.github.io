@@ -32,6 +32,10 @@ a{
   text-decoration: none;
 }
 
+a h5:hover, a h4:hover{
+  opacity: .3;
+}
+
 
 /*Main Page Common*/
 
@@ -86,7 +90,14 @@ section hr{
 #hero h1{
   padding-left: 1.5em;
   margin-top: 12%;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+#hero h1 span{
+  display: block;
+}
+
 
 #msc-logo{
   position: absolute;
