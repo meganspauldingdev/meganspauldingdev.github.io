@@ -29,5 +29,3 @@ class Biography extends Component {
 }
 
 export default Biography
-
-[instagram-feed hashtag="#wandereventrentals]
