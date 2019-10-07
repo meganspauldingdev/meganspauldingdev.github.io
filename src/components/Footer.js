@@ -10,7 +10,7 @@ class Footer extends Component {
 
 		return(
 			<footer>
-				<Link to='/contact' className="CTA-home">Yeah, this fancy-pants website convinced me. Let's do this!</Link>
+				<Link to='/contact' className="CTA-home">Yeah, this fancy-pants website has already convinced me. Let's do this!</Link>
 				<p>Copyright {year} Megan Spaulding Creative</p>
 			</footer>
 		)

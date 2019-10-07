@@ -2,27 +2,27 @@
 	"samples":[
 	  { "id":"the-vintage-sparrow",
 	  	"name":"The Vintage Sparrow", 
-	  	"imageURL":"https://a2plcpnl0009.prod.iad2.secureserver.net:2083/cpsess2254565664/viewer/home%2fhbeb3453cmpu%2fpublic_html%2fimages/vs-logo.png"},
+	  	"imageURL":"/img/vs-logo.png"},
 	  
 	  { "id":"holly-joyce-murray",
 	  	"name":"Holly Joyce Murray", 
-	  	"imageURL":"https://a2plcpnl0009.prod.iad2.secureserver.net:2083/cpsess2254565664/viewer/home%2fhbeb3453cmpu%2fpublic_html%2fimages/hjm-logo.png"},
+	  	"imageURL":"/img/hjm-logo.png"},
 	  
 	  { "id":"managable",
 	  	"name":"Manageable", 
-	  	"imageURL":"https://a2plcpnl0009.prod.iad2.secureserver.net:2083/cpsess2254565664/viewer/home%2fhbeb3453cmpu%2fpublic_html%2fimages/manageable-logo.png"},
+	  	"imageURL":"/img/manageable-logo.png"},
 	  
 	  { "id":"momba-bomba",
 	  	"name":"Momba Bomba", 
-	  	"imageURL":"https://a2plcpnl0009.prod.iad2.secureserver.net:2083/cpsess2254565664/viewer/home%2fhbeb3453cmpu%2fpublic_html%2fimages/mb-logo.png"},
+	  	"imageURL":"/img/mb-logo.png"},
 	  
 	  { "id":"vision-chasers",
 	  	"name":"Vision Chasers", 
-	  	"imageURL":"https://a2plcpnl0009.prod.iad2.secureserver.net:2083/cpsess2254565664/viewer/home%2fhbeb3453cmpu%2fpublic_html%2fimages/vc-logo.png"},
+	  	"imageURL":"/img/vc-logo.png"},
 	  
 	  { "id":"house-of-revival",
 	  	"name":"House of Revival", 
-	  	"imageURL":"https://a2plcpnl0009.prod.iad2.secureserver.net:2083/cpsess2254565664/viewer/home%2fhbeb3453cmpu%2fpublic_html%2fimages/hor-logo.png"},
+	  	"imageURL":"/img/hor-logo.png"},
 	  
 	  { "id":"one-too-many",
 	  	"name":"ONE TOO MANY", 
